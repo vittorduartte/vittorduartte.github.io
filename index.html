@@ -26,8 +26,10 @@
                         </span>
                     </div>
                     <div class="navbar-menu">
-                        <a href="" class="btn-close"><i class="fas fa-arrow-circle-right fa-2x"></i></a>
                         <div class="navbar-start">
+                            <a href="" class="navbar-item">
+                                <a href="" class="btn-close"><i class="fas fa-angle-double-right fa-2x"></i></a>
+                            </a>
                             <a href="#about" class="navbar-item">
                                 Sobre
                             </a>
@@ -44,9 +46,7 @@
                                 Tecnologias
                             </a>
                         </div>
-                        <div class="navbar-end">
-                            <a href="" class="navbar-item"></a>
-                        </div>
+                        
                     </div>
                 </div>
             </nav>
@@ -100,13 +100,15 @@
     </section>
     <hr>
     <!-- About -->
-    <div class="container">
+    <div class="container main-articles">
         <div class="columns">
+
             <div class="column is-4">
-                <div class="profile-img"><img src="images/profile-photo.jpg" alt="Profile Photo"></div>
+                <div class="profile-img"></div>
             </div>
+
             <div class="column is-8">
-                <section class="content" id="about">
+                <article class="content" id="about">
                     <h1>About</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas quae dignissimos at minima
@@ -120,16 +122,15 @@
                         similique!
                         Harum, facere quasi?
                     </p>
-                </section>
+                </article>
             </div>
         </div>
-    </div>
-    <hr>
-    <!-- Education -->
-    <div class="container">
+
+        <!-- Education -->
+
         <div class="columns">
             <div class="column is-8">
-                <section class="content" id="education">
+                <article class="content" id="education">
                     <h1>Education</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas quae dignissimos at minima
@@ -146,19 +147,18 @@
                             <li>Dados Conectados</li>
                         </ul>
                     </p>
-                </section>
+                </article>
             </div>
-            <div class="column is-6">
+            <div class="column is-4">
 
             </div>
         </div>
-    </div>
-    <hr>
-    <!-- Experiences -->
-    <div class="container">
+
+        <!-- Experiences -->
+
         <div class="columns">
             <div class="column is-6">
-                <div class="content" id="experiences">
+                <article class="content" id="experiences">
                     <h1>Experiences</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas quae dignissimos at minima
@@ -192,9 +192,9 @@
                             </li>
                         </ul>
                     </p>
-                </div>
+                </article>
             </div>
-            <div class="column is-6">
+            <div class="column is-4">
 
             </div>
         </div>
@@ -209,12 +209,13 @@
                 $(".navbar-burger").hide();
             }
         );
-        $(".btn-close").click(
+        $(".navbar-item").click(
             function () {
                 $(".navbar-menu").hide();
                 $(".navbar-burger").show();
             }
         );
+        
     </script>
 </body>
 

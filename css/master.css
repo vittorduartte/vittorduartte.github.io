@@ -5,17 +5,25 @@
 /* Hero Section */
 .has-bg{
     width: 100%;
-    background: url(../images/hero-home.jpg) no-repeat fixed;
+    background: url(../images/MOSHED-2019-1-15-3-10-42.jpg) no-repeat fixed;
 }
 
 /* Hero Menu */
+.navbar-start {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(36,36,36,0.99);
+    top: 0;
+    left: 0;
+}
+
 .navbar-start a{
     font-size: 1.3rem;
     color: #FFF; 
 }
 
 .btn-close {
-    margin: 2% 2%;
+    margin: 0 2.5%;
     color: #0f1113;
     display: none;
 }
@@ -25,11 +33,12 @@
 }
 
 /* Hero Title and Content */
-.profile-img img{
+.profile-img{
     width: 250px;
     height: 250px;
     margin: 0 20%;
     border-radius: 250px;
+    background-image: url(../images/glitch.gif);
 }
 
 .title.is-nickname {
