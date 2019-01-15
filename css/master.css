@@ -1,0 +1,68 @@
+/* Configurações Gerais */
+* {font-weight: 400; font-family: 'Titillium Web', sans-serif;}
+
+
+/* Hero Section */
+.has-bg{
+    width: 100%;
+    background: url(../images/hero-home.jpg) no-repeat fixed;
+}
+
+/* Hero Menu */
+.navbar-start a{
+    font-size: 1.3rem;
+    color: #FFF; 
+}
+
+.btn-close {
+    margin: 2% 2%;
+    color: #0f1113;
+    display: none;
+}
+
+.navbar-menu{
+    width: 100%;
+}
+
+/* Hero Title and Content */
+.profile-img img{
+    width: 250px;
+    height: 250px;
+    margin: 0 20%;
+    border-radius: 250px;
+}
+
+.title.is-nickname {
+    font-family: 'Passion One', cursive;
+    color: #FFF;
+}
+
+.subtitle.is-skills{
+    color: #FFF;
+}
+
+.icon-link a{
+    color: #FFF;
+    margin-right: 50px;
+}
+
+
+/* Sections */
+
+#about h1 {
+    font-size: 2.5rem;
+} p {
+    text-align: justify;
+}
+
+#education h1 {
+    font-size: 2.5rem;
+} ul {
+    list-style-type: none;
+}
+
+#experiences h1{
+    font-size: 2.5rem;
+} p {
+    text-align: justify;
+} 
