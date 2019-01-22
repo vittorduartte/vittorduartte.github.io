@@ -1,11 +1,13 @@
 $(".navbar-burger").click(
   function(){
-    $(".navbar-menu").show;
+      $(".navbar-menu").toggleClass("is-active");
+      $(".navbar-burger").toggleClass("is-active");
   }
 );
 
 $(".navbar-item").click(
-  function () {
-    $(".navbar-menu").hiden;
+  function(){
+      $(".navbar-menu").toggleClass("is-active");
+      $(".navbar-burger").toggleClass("is-active");
   }
-);
+)
