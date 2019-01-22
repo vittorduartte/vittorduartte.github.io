@@ -11,6 +11,7 @@
 /* Hero Menu */
 .navbar-burger{
     color: #FFF;
+    cursor: pointer;
 }
 
 .navbar-start {

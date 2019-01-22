@@ -19,13 +19,13 @@
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                        <span class="navbar-burger burger">
-                            <span aria-hidden="true"></span>
-                            <span aria-hidden="true"></span>
-                            <span aria-hidden="true"></span>
-                        </span>
+                        <a class="navbar-burger burger" id="target">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
                     </div>
-                    <div class="navbar-menu">
+                    <div class="navbar-menu" id="content-target">
 
                         <div class="navbar-start">
                             <a href="#about" class="navbar-item">
@@ -202,7 +202,21 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="scripts/master.js"></script>
+    <script>
+        $(".navbar-burger").click(
+            function(){
+                $(".navbar-menu").toggleClass("is-active");
+                $(".navbar-burger").toggleClass("is-active");
+            }
+        );
+        
+        $(".navbar-item").click(
+            function(){
+                $(".navbar-menu").toggleClass("is-active");
+                $(".navbar-burger").toggleClass("is-active");
+            }
+        )
+    </script>
 </body>
 
 </html>
