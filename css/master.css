@@ -52,21 +52,24 @@
     color: #FFF;
     margin-right: 50px;
 }
-
-#about h1 {
+.information h1 {
     font-size: 2.5rem;
-} p {
+}
+
+#about p {
     text-align: justify;
 }
 
-#education h1 {
-    font-size: 2.5rem;
-} ul {
+#education ul {
     list-style-type: none;
 }
 
-#experiences h1{
-    font-size: 2.5rem;
-} p {
+#experiences p {
     text-align: justify;
 } 
+
+@media screen and (min-width: 320px){
+    .profile-img{
+        margin-left: 8em;
+    }
+}
