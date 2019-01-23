@@ -52,6 +52,16 @@
     color: #FFF;
     margin-right: 50px;
 }
+
+#devicons {
+    font-size: 3.5em;
+    margin-right: 0.2em;
+} 
+
+#devicons:hover {
+    color: #383847;
+}
+
 .information h1 {
     font-size: 2.5rem;
 }
