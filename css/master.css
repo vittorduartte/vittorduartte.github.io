@@ -31,12 +31,11 @@
 }
 
 /* Hero Title and Content */
-.profile-img{
+.hero-body img{
     width: 250px;
     height: 250px;
-    margin: 0 20%;
+    margin-bottom: 15px;
     border-radius: 250px;
-    background-image: url(../images/glitch.gif);
 }
 
 .title.is-nickname {
@@ -51,6 +50,10 @@
 .icon-link a{
     color: #FFF;
     margin-right: 50px;
+}
+
+.sobre{
+    margin-bottom: 2.5em;
 }
 
 .tecnologias{
