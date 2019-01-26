@@ -31,8 +31,8 @@
 
 /* Hero Title and Content */
 .hero-body img{
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     margin-bottom: 15px;
     border-radius: 250px;
 }
@@ -61,12 +61,12 @@
 }
 
 #devicons {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-right: 0.2em;
 } 
 
 #devicons:hover {
-    color: #383847;
+    color: #000000;
 }
 
 .information h1 {
@@ -85,3 +85,6 @@
     text-align: justify;
 }
 
+.is-partner img{
+    margin: 0 0.5em;
+}
